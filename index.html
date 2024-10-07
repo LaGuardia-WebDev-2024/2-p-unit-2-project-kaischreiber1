@@ -1,13 +1,13 @@
 <!--
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[ ] Two Element Selectors
+[ done ] Two ID Selectors
+[ done ] Two Class Selectors
+[ done ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a Background Image
-[ no ] Feature 2 - Include Border Radius CSS Property
+[ done ] Feature 2 - Include Border Radius CSS Property
 [ no ] Feature 3 - Include Horizontal Line
 [ no ] Feature 4 - Embed YouTube Video
 [ no ] Feature 5 - Include Border CSS Property
@@ -18,28 +18,54 @@ Select ONE Additional Feature to Add
   <head>
     <meta charset="utf-8" />
     <title>Unit 2 Project</title>
-    <h1>My Favorite Travel Destination</h1>
-    <h2>Israel</h2>
+    
     <style>
       body {
         background-color: rgb(186, 217, 249);
       }
-      h1 {
+      #fave {
         color: rgb(255, 255, 255);
       }
-      h2 {
+     #israel {
         color: rgb(255, 255, 255);
+      }
+      
+      h3 {
+        color: rgb(255, 255, 255)
+      }
+      
+      p {
+        color: rgb(255, 255, 255)
+      }
+      
+      .Israel {
+        background-color: rgb(138, 184, 255 )
+      }
+      
+      .pic {
+        border-radius: 30px
       }
     </style>
+   
+
   </head>
   <body>
+    <h1 id= "fave">My Favorite Travel Destination</h1>
+    <h2 id= "israel"> Israel </h2>
     <img
       src="https://i0.wp.com/www.touristisrael.com/wp-content/uploads/2023/10/israel-flag-masada.jpg?resize=1024%2C683&ssl=1"
-      width="200"
+      width="200" class="pic"
      />
-    <img src="https://s1.it.atcdn.net/wp-content/uploads/2014/06/shutterstock_129551465.jpg" width="200"
+    <img src="https://s1.it.atcdn.net/wp-content/uploads/2014/06/shutterstock_129551465.jpg" width="200" class= "pic"
   
     />
-  
+   <img src= "https://media.istockphoto.com/id/587203352/photo/dead-sea-seashore-with-palm-trees-and-mountains-on-background.jpg?s=612x612&w=0&k=20&c=MTU8ZXWopNT1JTI-iwGBRDjZ8G3oWRL9PC9EAzwE5Kw=" width="200" class="pic"/>
+ <h3>
+   Why?
+    </h3>
+    
+    <p>
+   I love <strong class="Israel"> Israel </strong> because it is so beautiful. <srong class="Israel">Israel</srong> is a huge part of my culture, therefore it is very important to me. There is so much ancient history in <strong class="Israel"> Israel</strong>, this adds more to the beauty of the country.  
+    </p> 
   </body>
 </html>
